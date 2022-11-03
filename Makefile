@@ -16,7 +16,7 @@ lru-fine: main.c fine-lru.o
 
 update:
 	git checkout master
-	git pull https://github.com/comp530-f20/lab3.git master
+	git pull https://github.com/comp530-f22/lru.git master
 
 clean:
 	rm -f *~ *.o lru-sequential lru-mutex lru-rw lru-fine
